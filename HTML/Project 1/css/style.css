@@ -1,0 +1,151 @@
+/* Note: As i earlier declared in index.html. This CSS file is AI Generated and only HTML was written by me */
+/* Reset & Base Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #1c1c1c;
+    line-height: 1.6;
+}
+
+/* Sticky Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+/* Logo */
+header img {
+    cursor: pointer;
+}
+
+/* Search Bar */
+header form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f8f8f8;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+header input[type="text"] {
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 300px;
+    font-size: 14px;
+}
+
+/* Auth Buttons */
+header button {
+    margin-left: 8px;
+    padding: 7px 14px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: #696969;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.2s ease;
+}
+
+header button:hover {
+    background-color: #ef4f5f;
+    color: #fff;
+}
+
+/* Category Tabs */
+main div:first-of-type {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 0;
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #fff;
+}
+
+main div:first-of-type label {
+    font-weight: 500;
+    cursor: pointer;
+    padding: 6px 10px;
+    transition: 0.2s ease;
+}
+
+main div:first-of-type label:hover {
+    color: #ef4f5f;
+}
+
+main input[type="radio"] {
+    display: none;
+}
+
+main input[type="radio"]:checked + label {
+    border-bottom: 2px solid #ef4f5f;
+    color: #ef4f5f;
+}
+
+/* Section Headings */
+main h2 {
+    font-size: 22px;
+    margin: 25px 0 15px;
+}
+
+/* Image Grid */
+.food-grid, .brand-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+}
+
+.food-grid img, .brand-grid img {
+    width: 100%;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.food-grid img:hover, .brand-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Explore Buttons */
+main button {
+    padding: 10px 16px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+main button:hover {
+    background-color: #ef4f5f;
+    color: white;
+    border-color: #ef4f5f;
+}
+
+/* Footer */
+footer {
+    padding: 20px 40px;
+    background-color: #f8f8f8;
+    font-size: 12px;
+    color: #777;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
