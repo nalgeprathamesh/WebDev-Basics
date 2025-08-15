@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Vacations to Europe, Asia and Americas</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Bookme.com</h1>
+    </header>
+    <main>
+        <h2>Submit your details so we can reach back to you!</h2>
+        <form action="/Chapter 4/CH4_PS/confirm.html">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" placeholder="Enter your Name" id="name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your Email" id="email" required>
+            </div>
+            <div>
+                <label for="ph">Phone Number</label>
+                <input type="tel" placeholder="Enter your phone number" id="ph" required>
+            </div>
+            <div>
+                <label for="datest">Date Start</label>
+                <input type="date" placeholder="Enter the date you want to visit" id="datest" required>
+            </div>
+            <div>
+                <label for="dateen">Date End</label>
+                <input type="date" placeholder="Enter the date you want to come back" id="dateen" required>
+            </div>
+
+            <div>
+                <label for="plan">Choose your Plan</label>
+                <select name="plan" id="plan" required>
+                    <option value="swiss">Exclusive Swiss Tour covering Alps, Zurich and Geneva</option>
+                    <option value="austria">Explore the majestic beauty of Austria and Vienna</option>
+                    <option value="japan">Explore the culturally rich country of Japan and it's prefectures</option>
+                    <option value="india">Explore the world's most diverse country and places like Taj Mahal and the
+                        great Himalayas</option>
+                    <option value="us">Enjoy sunsets of beaches of LA or fly through New York's Skyline</option>
+                </select>
+            </div>
+            <div>
+                <label for="budget">Budget</label>
+                <input type="number" placeholder="Enter your approximate budget" id="budget" required>
+            </div>
+            <div>
+                <label for="extra">Enter additional details you want us to know</label>
+                <textarea name="extra" id="extra"></textarea>
+            </div>
+            <div>
+                <input id="terms" type="checkbox" required>
+                <label for="terms">I agree to abide by the rules of bookme.com and all it's Terms and Conditions</label>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>An BookMe LLC Product. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

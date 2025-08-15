@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Log-in</title>
+</head>
+
+<body>
+    <h1>Google</h1>
+    <form action="/Chapter 4/submit.html">
+    <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Enter your Name" required>
+    </div>
+    <div>
+        <label for="dob">Date</label>
+        <input id="dob" type="date" placeholder="Enter your Birth Date" required>
+    </div>
+    <div>
+        <label for="ph">Phone Number</label>
+        <input id="ph" type="tel" placeholder="Enter your Phone Number">
+    </div>
+    <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="Enter your Email" required>
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Enter your password" required>
+    </div>
+    <!-- Dropdown Menu -->
+    <div>
+        <label for="gender">Gender</label>
+        <select id="gender" required>
+            <option value="" disabled selected>Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    <!-- Radio buttons for choosing one subscription plans -->
+    <div>
+        <p>Subscription </p>
+        <input type="radio" id="Basic" name="subscription" value="basic">
+        <label for="basic">Basic</label>
+        <input type="radio" id="Normal" name="subscription" value="Normal">
+        <label for="basic">Normal</label>
+        <input type="radio" id="Premium" name="subscription" value="premium">
+        <label for="basic">Premium</label>
+    </div>
+    <!-- Checkbox -->
+    <div>
+        <input type="checkbox" id="terms" required>
+        <label for="terms">I agree to terms and conditions</label>
+    </div>
+    <!-- For comments using textlabel -->
+    <div>
+        <label for="comments">Comment</label>
+        <textarea name="comments" id="comments" placeholder="Enter your comments" rows="4"></textarea>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+</body>
+
+</html>
